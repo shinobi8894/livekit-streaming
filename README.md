@@ -30,7 +30,17 @@ This project is a live streaming application built using Node.js and TypeScript,
 ## Installation
 
 1. Clone the repository:
-
-   ```bash
+```
    git clone https://github.com/yourusername/livekit-streaming.git
    cd livekit-streaming
+```
+2.Install dependencies:
+```
+   npm install
+```
+3.Configure your LiveKit credentials in src/config.ts:
+```
+export const livekitHost = 'https://my.livekit.host';
+export const apiKey = 'your-api-key';
+export const secretKey = 'your-secret-key';
+```
